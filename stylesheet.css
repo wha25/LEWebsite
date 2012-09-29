@@ -1,0 +1,167 @@
+html {
+	background-color: white;
+	font-variant: small-caps;
+}
+	
+body {
+	margin: 0 auto;
+	padding: 0;
+	color: #d04b4c;
+	font-family:"Helvetica",Arial,Sans-serif;
+	font-size:100%;
+}
+
+.bg-light {
+	width: 100%;
+}
+
+.bg-dark {
+	width: 100%;
+	background-color: #d04b4c;
+}
+
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0px 50px 0px 50px;
+}
+
+.footer-item {
+	width: 220px;
+	height: 340px;
+	margin-right: 20px;
+	background-color: #BABABA;
+	float: left;	
+}
+
+.clear {
+	clear: both;
+}
+
+#header-wrapper {
+	height: 470px;
+	color: #d04b4c;
+}
+
+#header-left {
+	width: 640px;
+	height: 470px;
+	vertical-align: top;
+	float: left;
+}
+
+#coverphoto {
+	height: 410px;
+	width: 640px;
+	background: url('images/cover.jpg');
+}
+
+#header-right {
+	width: 360px;
+	height: 470px;
+	float: right;
+}
+
+#header-right-top {
+	height: 240px;
+	width: 340px;
+	padding-top: 30px;
+	padding-left: 20px;
+	font-size: 2.5em;
+}
+
+#header-right-bottom {
+	height: 200px;
+	width: 360px;
+}
+
+
+#lelogo {
+	height: 200px; 
+	width: 200px; 
+	background: url('images/logo.jpg');
+	position: relative;
+	left: 160px;
+}
+
+#body-wrapper {
+	width: 1000px;
+	height: 400px;
+	color: #ffffff;
+	display: table;
+}
+
+#body-left {
+	width: 700px;
+	display: table-cell;
+}
+
+
+#body-right {
+	width: 300px;
+	height: 200px;
+	background-color: #ffffff;
+	display: table-cell;
+	color: #d04b4c;
+}
+
+/*#body-bg {
+	box-shadow: 0px -7px 7px -7px #333;
+}*/
+
+#nav {
+	position: relative;
+	left: 80px;
+	top: 5px;
+	font-size: 120%;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+}
+
+#nav ul {
+	/*list-style-type: square;*/
+	list-style: square url("images/bullets.jpg");
+}
+
+#nav li {
+	margin-bottom: 7px;
+}
+
+#nav a {
+	text-decoration: none;
+	color: #d04b4c;
+}
+
+#nav a:hover {
+	color: #FF99CC;
+	letter-spacing: 5px;
+	transition: color 0.5s, letter-spacing 0.5s;
+	-moz-transition: color 0.5s, letter-spacing 0.5s; /* Firefox 4 */
+	-webkit-transition: color 0.5s, letter-spacing 0.5s; /* Safari and Chrome */
+	-o-transition: color 0.5s, letter-spacing 0.5s; /* Opera */
+}
+
+#footer-wrapper {
+	color: #d04b4c;
+	padding-top: 20px;
+	padding-bottom: 60px;
+}
+
+.footer-item .post-title {
+	font-size: 150%;
+}
+
+.footer-item .post-date {
+	word-spacing: 5px;
+}
+
+#bot-spacer {
+	height: 30px;
+}
+
+#copyright-wrapper {
+	margin-top: 5px;
+	height: 50px;
+	font-size: smaller;
+	text-align: center;
+}
