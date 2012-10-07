@@ -1,0 +1,137 @@
+html {
+	font-variant: small-caps;
+	letter-spacing: 1px;
+	background-color: #ececec;
+}
+	
+body {
+	margin: 0 auto;
+	padding: 0;
+	color: #b23738;
+	font-family: "Orator Std","Calibri",Arial,"Helvetica",Sans-serif;
+	font-size: 100%;
+}
+
+.bg-light {
+	width: 100%;
+	background-color: #ececec;
+}
+
+.bg-dark {
+	width: 100%;
+	background-color: #d04b4c;
+}
+
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0px 50px 0px 50px;
+}
+
+.clear {
+	clear: both;
+}
+
+#header-wrapper {
+	overflow: hidden;
+	height: 400px;
+	color: #ececec;
+}
+
+#header-wrapper h2 {
+	margin: 0;
+	padding: 20px 0 0 20px;
+	letter-spacing: 5px;
+	font-size: 200%;
+}
+
+#header-wrapper .header-link {
+	letter-spacing: 3px;
+	font-size: 150%;	
+}	
+
+.header-link .bullet {
+	margin-right: 7px;	
+}
+
+#header-wrapper #header-link1 {
+	position: relative;
+	top: 140px;
+	left: 190px;
+}
+
+#header-wrapper #header-link2 {
+	position: relative;
+	top: 111px;
+	left: 440px;
+}
+
+#header-wrapper a {
+	text-decoration: none;
+	color: white;
+}
+
+#header-wrapper a:hover {
+	letter-spacing: 4px;
+	transition: letter-spacing 0.3s;
+	-moz-transition: letter-spacing 0.3s; /* Firefox 4 */
+	-webkit-transition: letter-spacing 0.3s; /* Safari and Chrome */
+	-o-transition: letter-spacing 0.3s; /* Opera */
+}
+
+#lelogo {
+	height: 200px; 
+	width: 200px; 
+	background: url('images/logo.jpg');
+	float: right;
+	position: relative;
+	top: 82px;
+}
+
+#body-wrapper {
+	color: #d04b4c;
+	height: 500px; /* delete once there is content */
+}
+
+#nav {
+	width: 200px;
+	float: right;
+	clear: both;
+	font-size: 120%;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+}
+
+#nav ul {
+	list-style: square url("images/bullets.jpg");
+}
+
+#nav li {
+	margin-bottom: 10px;
+}
+
+#nav a {
+	text-decoration: none;
+	color: #b23738;
+}
+
+#nav a:hover {
+	color: #ea595a;
+	letter-spacing: 5px;
+	transition: color 0.4s, letter-spacing 0.4s;
+	-moz-transition: color 0.4s, letter-spacing 0.4s; /* Firefox 4 */
+	-webkit-transition: color 0.4s, letter-spacing 0.4s; /* Safari and Chrome */
+	-o-transition: color 0.4s, letter-spacing 0.4s; /* Opera */
+}
+
+#bot-spacer {
+	height: 30px;
+}
+
+#copyright-wrapper {
+	color: #d04b4c;
+	margin-top: 5px;
+	height: 50px;
+	font-size: smaller;
+	text-align: center;
+}

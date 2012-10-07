@@ -1,13 +1,14 @@
 html {
 	background-color: #ececec;
 	font-variant: small-caps;
+	letter-spacing: 1px;
 }
 	
 body {
 	margin: 0 auto;
 	padding: 0;
 	color: #b23738;
-	font-family:"Helvetica",Arial,Sans-serif;
+	font-family:"Orator Std","Calibri",Arial,"Helvetica",Sans-serif;
 	font-size:100%;
 }
 
@@ -110,11 +111,6 @@ body {
 	height: 375px;
 	color: #ffffff;
 	display: table;
-	border-spacing: 0;
-}
-
-#body-wrapper tbody {
-	width: 1000px;
 }
 
 #post-pic {
@@ -142,6 +138,7 @@ body {
 }
 
 #post-wrapper {
+	padding: 35px 0 0 0;
 	width: 700px;
 	height: 300px;	
 }
@@ -186,7 +183,7 @@ body {
 #nav {
 	position: relative;
 	left: 80px;
-	bottom: 60px;
+	bottom: 20px;
 	font-size: 120%;
 	letter-spacing: 3px;
 	word-spacing: 5px;
@@ -197,7 +194,7 @@ body {
 }
 
 #nav li {
-	margin-bottom: 12px;
+	margin-bottom: 10px;
 }
 
 #nav a {
