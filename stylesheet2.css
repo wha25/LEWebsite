@@ -82,15 +82,20 @@ body {
 #lelogo {
 	height: 200px; 
 	width: 200px; 
-	background: url('images/logo.jpg');
+	/*background: url('images/logo.jpg');*/
 	float: right;
 	position: relative;
-	top: 82px;
+	top: 130px;
 }
 
 #body-wrapper {
 	color: #d04b4c;
 	height: 500px; /* delete once there is content */
+}
+
+#body-content {
+	padding: 6px 0 0 0;
+	width: 800px;
 }
 
 #nav {
@@ -100,10 +105,13 @@ body {
 	font-size: 120%;
 	letter-spacing: 3px;
 	word-spacing: 5px;
+	margin-left: 10px;
 }
 
 #nav ul {
 	list-style: square url("images/bullets.jpg");
+	margin: 18px 0 0 0;
+	padding: 0 0 0 28px;
 }
 
 #nav li {
