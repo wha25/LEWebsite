@@ -1,15 +1,14 @@
 html {
-	background-color: #ececec;
-	font-variant: small-caps;
-	letter-spacing: 1px;
+	background-color: #fff;
+	font-size: 100%;
 }
 	
 body {
 	margin: 0 auto;
 	padding: 0;
 	color: #b23738;
-	font-family:"Orator Std","Calibri",Arial,"Helvetica",Sans-serif;
-	font-size:100%;
+	font-family: 'Varela',								'Questrial', Arial, Sans-serif;	
+	font-size: 100%;
 }
 
 .bg-light {
@@ -170,7 +169,7 @@ body {
 
 #body-right {
 	width: 30%;
-	background-color: #ececec;
+	background-color: #fff;
 	display: table-cell;
 	color: #b23738;
 }
@@ -222,8 +221,6 @@ body {
 }
 
 .footer-item .post-date {
-	font-size: smaller;
-	word-spacing: 5px;
 }
 
 .footer-item .post-readmore {
@@ -245,6 +242,5 @@ body {
 #copyright-wrapper {
 	margin-top: 5px;
 	height: 50px;
-	font-size: smaller;
 	text-align: center;
 }
