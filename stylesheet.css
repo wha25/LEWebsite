@@ -7,7 +7,7 @@ body {
 	margin: 0 auto;
 	padding: 0;
 	color: #b23738;
-	font-family: 'Varela',								'Questrial', Arial, Sans-serif;	
+	font-family: 'Varela', "Helvetica Neau", Arial, Sans-serif;	
 	font-size: 100%;
 }
 
@@ -211,6 +211,16 @@ body {
 	margin-bottom: 10px;
 }
 
+
+#nav li ul {
+	display: none;
+}
+
+#nav li:hover ul {
+	display: inline-block;
+	float: right;
+}
+
 #nav a {
 	text-decoration: none;
 	color: #b23738;
@@ -255,7 +265,7 @@ body {
 }
 
 #copyright-wrapper {
-	margin-top: 5px;
-	height: 50px;
+	margin-top: 12px;
+	height: 36px;
 	text-align: center;
 }
