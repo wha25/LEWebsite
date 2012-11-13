@@ -11,6 +11,10 @@ body {
 	font-size: 100%;
 }
 
+img {
+	border: 0;
+}
+
 .bg-light {
 	width: 100%;
 }
@@ -209,16 +213,25 @@ body {
 
 #nav li {
 	margin-bottom: 10px;
+	font-weight: bold;
 }
 
 
 #nav li ul {
 	display: none;
+	list-style: none;
 }
 
 #nav li:hover ul {
-	display: inline-block;
-	float: right;
+	padding: 10px;
+	display: block;
+	position: absolute;
+	background-color:#fff;
+	color: #fff;
+}
+
+#nav li:hover ul li a {
+	text-align: left;
 }
 
 #nav a {
@@ -228,11 +241,6 @@ body {
 
 #nav a:hover {
 	color: #ea595a;
-	letter-spacing: 5px;
-	transition: color 0.4s, letter-spacing 0.4s;
-	-moz-transition: color 0.4s, letter-spacing 0.4s; /* Firefox 4 */
-	-webkit-transition: color 0.4s, letter-spacing 0.4s; /* Safari and Chrome */
-	-o-transition: color 0.4s, letter-spacing 0.4s; /* Opera */
 }
 
 #footer-wrapper {
