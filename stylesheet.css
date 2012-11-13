@@ -163,6 +163,37 @@ body {
 	margin: 0 0 10px 10px;
 }
 
+.readmore-white {
+	padding: 4px 11px 4px 11px;
+	background-color: white;
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: smaller;
+	text-decoration: none;
+	color: #D04B4C;
+}
+
+.readmore-red {
+	padding: 4px 11px 4px 11px;
+	background-color: #d04b4c;
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: smaller;
+	text-decoration: none;
+	color: white;
+}
+
+.readmore-red:hover {
+	color: #D04B4C;
+	background-color: white;
+}
+
+.readmore-white:hover {
+	color: white;
+	background-color: #D04B4C;
+}
+
+
 #body-read-more {
 	float: right;
 	position: relative;
@@ -236,18 +267,7 @@ body {
 }
 
 .footer-item .post-date {
-}
-
-.footer-item .post-readmore {
-	margin-top: 5px;
-	width: 75px;
-	height: 24px;
-	overflow: hidden;
-}
-
-.footer-item .post-readmore img:hover {
-	position: relative;
-	bottom: 24px;
+	font-size: smaller;
 }
 
 #bot-spacer {
