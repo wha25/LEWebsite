@@ -199,7 +199,7 @@ img {
 #body-read-more {
 	float: right;
 	position: relative;
-	left: 6px;
+	left: 7px;
 	top: 20px;
 	width: 75px;
 	height: 24px;
@@ -236,15 +236,25 @@ img {
 
 
 #nav li ul {
-	display: none;
+	height: 0;
+	visibility: hidden;
+	opacity: 0;
 	list-style: none;
+     /*transition-property: visibility 0s linear 0.5s, opacity linear 0.5s;
+     -moz-transition: visibility 0s linear 0.5s, opacity linear 0.5s;
+     -webkit-transition: visibility 0s linear 0.5s, opacity linear 0.5s;
+     -o-transition: visibility 0s linear 0.5s, opacity linear 0.5s;*/
+/* http://www.greywyvern.com/?post=337 */
 }
 
 #nav li:hover ul {
+	/*transition-delay:0s;*/
+	height: auto;
+	visibility: visible;
+	opacity: 1;
 	width: 125px;
 	margin: -22px 0 0 150px;
 	padding: 3px 0 0 2px;
-	display: block;
 	position: absolute;
 	background-color:#fff;
 	color: #fff;
